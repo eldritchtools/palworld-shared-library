@@ -1,0 +1,39 @@
+{
+    "name": "@eldritchtools/palworld-shared-library",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "babel src --out-dir dist && copyfiles -u 1 public/**/* dist/"
+    },
+    "peerDependencies": {
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0",
+        "react-select": "^5.10.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.28.3",
+        "@babel/core": "^7.28.3",
+        "@babel/preset-env": "^7.28.3",
+        "@babel/preset-react": "^7.27.1",
+        "copyfiles": "^2.4.1"
+    },
+    "babel": {
+        "presets": [
+            [
+                "@babel/preset-env",
+                {
+                    "modules": false
+                }
+            ],
+            [
+                "@babel/preset-react",
+                {
+                    "runtime": "automatic"
+                }
+            ]
+        ]
+    }
+}
