@@ -1,6 +1,6 @@
 import { pals } from "../data/data";
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-var ASSETS_ROOT = "../assets";
+var ASSETS_ROOT = "https://eldritchtools.github.io/palworld-shared-library/public/assets";
 function PalIcon(_ref) {
   var _ref$id = _ref.id,
     id = _ref$id === void 0 ? null : _ref$id,
