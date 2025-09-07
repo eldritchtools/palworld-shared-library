@@ -6,7 +6,7 @@
         "dist"
     ],
     "scripts": {
-        "build": "babel src --out-dir dist && copyfiles -u 1 public/**/* dist/"
+        "build": "babel src --out-dir dist && copyfiles -u 1 public/data/* dist/"
     },
     "peerDependencies": {
         "react": "^19.0.0",

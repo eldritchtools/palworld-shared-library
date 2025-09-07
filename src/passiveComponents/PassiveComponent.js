@@ -1,7 +1,7 @@
 
 import { passives } from "../data/data";
 
-const ASSETS_ROOT = `../assets`;
+const ASSETS_ROOT = `https://eldritchtools.github.io/palworld-shared-library/public/assets`;
 
 const rankColors = {
     4: "#0DFF9E",

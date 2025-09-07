@@ -1,6 +1,6 @@
 import { pals } from "../data/data";
 
-const ASSETS_ROOT = `../assets`;
+const ASSETS_ROOT = `https://eldritchtools.github.io/palworld-shared-library/public/assets`;
 
 function PalIcon({ id = null, pal = null, circle = false, size = null, scale = null, showName = false, showPalNumber = false, highlighted = false, wrapName = false }) {
     const computedSize = size ? `${size}px` : (scale ? `${512 * scale}px` : "80px");
