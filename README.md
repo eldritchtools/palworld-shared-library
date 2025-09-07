@@ -6,6 +6,14 @@ Run `npm run build` before pushing updates to this project.
 
 Add `"@eldritchtools/palworld-shared-library": "github:eldritchtools/palworld-shared-library"` to `dependencies` in `package.json` and run `npm install` to import this into other projects.
 
+A postinstall script needs to be included in the package.json of the projects that will import this project to make the images available. Add `copy-files` to your dev dependencies `npm install copy-files --save-dev`, then add the following script to your package.json:
+
+```
+"scripts": {
+    "postinstall": "copyfiles -u 3 node_modules/@eldritchtools/palworld-shared-library/dist/assets/**/* public/assets"
+}
+```
+
 Provides the following:
 - [pals, passives](src/data) - Data of all pals and pal passives
 - [PalIcon, PalSelect](src/palComponents) - Components to display a pal's icon and to select a pal
