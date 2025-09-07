@@ -44,8 +44,8 @@ function PassiveComponent(_ref2) {
         width: "24px",
         height: "24px",
         backgroundColor: rankColors[rank],
-        WebkitMask: "url(".concat(ASSETS_ROOT, "/passive_ranks/").concat(Math.abs(rank), ".png) no-repeat center / contain"),
-        mask: "url(".concat(ASSETS_ROOT, "/passive_ranks/").concat(Math.abs(rank), ".png) no-repeat center / contain"),
+        WebkitMask: "url(".concat(ASSETS_ROOT, "/passiveRanks/").concat(Math.abs(rank), ".png) no-repeat center / contain"),
+        mask: "url(".concat(ASSETS_ROOT, "/passiveRanks/").concat(Math.abs(rank), ".png) no-repeat center / contain"),
         transform: "rotate(".concat(rank < 0 ? 180 : 0, "deg)")
       }
     })]

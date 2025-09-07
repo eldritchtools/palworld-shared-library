@@ -26,8 +26,8 @@ function PassiveComponent({ name, rank=null, addBorder=false }) {
                 width: "24px",
                 height: "24px",
                 backgroundColor: rankColors[rank],
-                WebkitMask: `url(${ASSETS_ROOT}/passive_ranks/${Math.abs(rank)}.png) no-repeat center / contain`,
-                mask: `url(${ASSETS_ROOT}/passive_ranks/${Math.abs(rank)}.png) no-repeat center / contain`,
+                WebkitMask: `url(${ASSETS_ROOT}/passiveRanks/${Math.abs(rank)}.png) no-repeat center / contain`,
+                mask: `url(${ASSETS_ROOT}/passiveRanks/${Math.abs(rank)}.png) no-repeat center / contain`,
                 transform: `rotate(${rank < 0 ? 180 : 0}deg)`
             }}
         />
