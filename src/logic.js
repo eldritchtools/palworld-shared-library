@@ -12,12 +12,12 @@ function checkPalSearchMatch(searchString, pal) {
     return includesIgnoreCase(pal.no, searchString) || includesIgnoreCase(pal.name, searchString);
 }
 
-function sortFromIds(a, b) {
+function palIdSortFunc(a, b) {
     return pals[a].sortIndex - pals[b].sortIndex;
 }
 
 function sortPalIds(list) {
-    return list.sort(sortFromIds);
+    return list.sort(palIdSortFunc);
 }
 
-export { checkIdSearchMatch, checkPalSearchMatch, sortPalIds };
+export { checkIdSearchMatch, checkPalSearchMatch, sortPalIds, palIdSortFunc };
