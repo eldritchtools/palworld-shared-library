@@ -1,8 +1,8 @@
 import Select from "react-select";
-import { PalIcon } from "./PalIcon";
+import PalIcon from "./PalIcon";
 
 import { pals } from "../data/data";
-import { checkPalSearchMatch } from "../palLogic/searchLogic";
+import { checkPalSearchMatch } from "../logic";
 import { selectStyle } from "../styles";
 import { useMemo } from "react";
 
