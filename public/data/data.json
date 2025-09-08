@@ -7,7 +7,17 @@
             "name": "Nyafia ",
             "breedingPower": 645,
             "tiebreakIndex": 0,
-            "iconPath": "/T_BadCatgirl_icon_normal.png"
+            "iconPath": "/T_BadCatgirl_icon_normal.png",
+            "maleProbability": 40,
+            "nocturnal": true,
+            "runSpeed": 600,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "handiwork": 3,
+                "gathering": 2,
+                "lumbering": 2,
+                "transporting": 2
+            }
         },
         "BlueberryFairy": {
             "id": "BlueberryFairy",
@@ -16,7 +26,18 @@
             "name": "Prunelia",
             "breedingPower": 755,
             "tiebreakIndex": 1,
-            "iconPath": "/T_BlueberryFairy_icon_normal.png"
+            "iconPath": "/T_BlueberryFairy_icon_normal.png",
+            "maleProbability": 40,
+            "nocturnal": true,
+            "runSpeed": 550,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "planting": 3,
+                "handiwork": 1,
+                "gathering": 2,
+                "medicineProduction": 3,
+                "transporting": 1
+            }
         },
         "GoldenHorse": {
             "id": "GoldenHorse",
@@ -25,7 +46,14 @@
             "name": "Gildane",
             "breedingPower": 505,
             "tiebreakIndex": 2,
-            "iconPath": "/T_GoldenHorse_icon_normal.png"
+            "iconPath": "/T_GoldenHorse_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 840,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "gathering": 2
+            }
         },
         "TentacleTurtle": {
             "id": "TentacleTurtle",
@@ -34,7 +62,16 @@
             "name": "Turtacle",
             "breedingPower": 1105,
             "tiebreakIndex": 3,
-            "iconPath": "/T_TentacleTurtle_icon_normal.png"
+            "iconPath": "/T_TentacleTurtle_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 320,
+            "transportSpeed": 190,
+            "workSuitability": {
+                "watering": 2,
+                "mining": 1,
+                "transporting": 1
+            }
         },
         "TentacleTurtle_Ground": {
             "id": "TentacleTurtle_Ground",
@@ -44,6 +81,15 @@
             "breedingPower": 1065,
             "tiebreakIndex": 4,
             "iconPath": "/T_TentacleTurtle_Ground_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 320,
+            "transportSpeed": 190,
+            "workSuitability": {
+                "watering": 2,
+                "mining": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -63,7 +109,16 @@
             "name": "Anubis",
             "breedingPower": 570,
             "tiebreakIndex": 5,
-            "iconPath": "/T_Anubis_icon_normal.png"
+            "iconPath": "/T_Anubis_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 480,
+            "workSuitability": {
+                "handiwork": 4,
+                "mining": 3,
+                "transporting": 2
+            }
         },
         "Baphomet": {
             "id": "Baphomet",
@@ -72,7 +127,17 @@
             "name": "Incineram",
             "breedingPower": 590,
             "tiebreakIndex": 6,
-            "iconPath": "/T_Baphomet_icon_normal.png"
+            "iconPath": "/T_Baphomet_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 700,
+            "transportSpeed": 320,
+            "workSuitability": {
+                "kindling": 1,
+                "handiwork": 2,
+                "mining": 1,
+                "transporting": 2
+            }
         },
         "Baphomet_Dark": {
             "id": "Baphomet_Dark",
@@ -82,6 +147,15 @@
             "breedingPower": 580,
             "tiebreakIndex": 7,
             "iconPath": "/T_Baphomet_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 700,
+            "transportSpeed": 320,
+            "workSuitability": {
+                "handiwork": 2,
+                "mining": 1,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -101,7 +175,14 @@
             "name": "Mau",
             "breedingPower": 1480,
             "tiebreakIndex": 8,
-            "iconPath": "/T_Bastet_icon_normal.png"
+            "iconPath": "/T_Bastet_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 475,
+            "transportSpeed": 317,
+            "workSuitability": {
+                "farming": 1
+            }
         },
         "Bastet_Ice": {
             "id": "Bastet_Ice",
@@ -111,6 +192,14 @@
             "breedingPower": 1440,
             "tiebreakIndex": 9,
             "iconPath": "/T_Bastet_Ice_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 475,
+            "transportSpeed": 317,
+            "workSuitability": {
+                "cooling": 1,
+                "farming": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -130,7 +219,14 @@
             "name": "Rushoar",
             "breedingPower": 1130,
             "tiebreakIndex": 10,
-            "iconPath": "/T_Boar_icon_normal.png"
+            "iconPath": "/T_Boar_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "mining": 1
+            }
         },
         "Carbunclo": {
             "id": "Carbunclo",
@@ -139,7 +235,18 @@
             "name": "Lifmunk",
             "breedingPower": 1430,
             "tiebreakIndex": 11,
-            "iconPath": "/T_Carbunclo_icon_normal.png"
+            "iconPath": "/T_Carbunclo_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "planting": 1,
+                "handiwork": 1,
+                "gathering": 1,
+                "lumbering": 1,
+                "medicineProduction": 1
+            }
         },
         "ColorfulBird": {
             "id": "ColorfulBird",
@@ -148,7 +255,14 @@
             "name": "Tocotoco",
             "breedingPower": 1340,
             "tiebreakIndex": 12,
-            "iconPath": "/T_ColorfulBird_icon_normal.png"
+            "iconPath": "/T_ColorfulBird_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 170,
+            "workSuitability": {
+                "gathering": 1
+            }
         },
         "Deer": {
             "id": "Deer",
@@ -157,7 +271,14 @@
             "name": "Eikthyrdeer",
             "breedingPower": 920,
             "tiebreakIndex": 13,
-            "iconPath": "/T_Deer_icon_normal.png"
+            "iconPath": "/T_Deer_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 390,
+            "workSuitability": {
+                "lumbering": 2
+            }
         },
         "Deer_Ground": {
             "id": "Deer_Ground",
@@ -167,6 +288,13 @@
             "breedingPower": 900,
             "tiebreakIndex": 14,
             "iconPath": "/T_Deer_Ground_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 390,
+            "workSuitability": {
+                "lumbering": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -186,7 +314,14 @@
             "name": "Digtoise",
             "breedingPower": 850,
             "tiebreakIndex": 15,
-            "iconPath": "/T_DrillGame_icon_normal.png"
+            "iconPath": "/T_DrillGame_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 190,
+            "workSuitability": {
+                "mining": 3
+            }
         },
         "Eagle": {
             "id": "Eagle",
@@ -195,7 +330,14 @@
             "name": "Galeclaw",
             "breedingPower": 1030,
             "tiebreakIndex": 16,
-            "iconPath": "/T_Eagle_icon_normal.png"
+            "iconPath": "/T_Eagle_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "gathering": 2
+            }
         },
         "ElecPanda": {
             "id": "ElecPanda",
@@ -205,6 +347,16 @@
             "breedingPower": 200,
             "tiebreakIndex": 17,
             "iconPath": "/T_ElecPanda_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 210,
+            "workSuitability": {
+                "generatingElectricity": 3,
+                "handiwork": 2,
+                "lumbering": 2,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -224,7 +376,14 @@
             "name": "Teafant",
             "breedingPower": 1490,
             "tiebreakIndex": 18,
-            "iconPath": "/T_Ganesha_icon_normal.png"
+            "iconPath": "/T_Ganesha_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 180,
+            "workSuitability": {
+                "watering": 1
+            }
         },
         "Garm": {
             "id": "Garm",
@@ -233,7 +392,14 @@
             "name": "Direhowl",
             "breedingPower": 1060,
             "tiebreakIndex": 19,
-            "iconPath": "/T_Garm_icon_normal.png"
+            "iconPath": "/T_Garm_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 460,
+            "workSuitability": {
+                "gathering": 1
+            }
         },
         "Gorilla": {
             "id": "Gorilla",
@@ -242,7 +408,16 @@
             "name": "Gorirat",
             "breedingPower": 1040,
             "tiebreakIndex": 20,
-            "iconPath": "/T_Gorilla_icon_normal.png"
+            "iconPath": "/T_Gorilla_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "handiwork": 1,
+                "lumbering": 2,
+                "transporting": 3
+            }
         },
         "Gorilla_Ground": {
             "id": "Gorilla_Ground",
@@ -252,6 +427,15 @@
             "breedingPower": 1030,
             "tiebreakIndex": 21,
             "iconPath": "/T_Gorilla_Ground_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "handiwork": 1,
+                "mining": 2,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -271,7 +455,14 @@
             "name": "Jolthog",
             "breedingPower": 1370,
             "tiebreakIndex": 22,
-            "iconPath": "/T_Hedgehog_icon_normal.png"
+            "iconPath": "/T_Hedgehog_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 215,
+            "workSuitability": {
+                "generatingElectricity": 1
+            }
         },
         "Hedgehog_Ice": {
             "id": "Hedgehog_Ice",
@@ -281,6 +472,13 @@
             "breedingPower": 1360,
             "tiebreakIndex": 23,
             "iconPath": "/T_Hedgehog_Ice_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 215,
+            "workSuitability": {
+                "cooling": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -300,7 +498,15 @@
             "name": "Univolt",
             "breedingPower": 680,
             "tiebreakIndex": 24,
-            "iconPath": "/T_Kirin_icon_normal.png"
+            "iconPath": "/T_Kirin_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 720,
+            "transportSpeed": 425,
+            "workSuitability": {
+                "generatingElectricity": 2,
+                "lumbering": 1
+            }
         },
         "Kitsunebi": {
             "id": "Kitsunebi",
@@ -309,7 +515,14 @@
             "name": "Foxparks",
             "breedingPower": 1400,
             "tiebreakIndex": 25,
-            "iconPath": "/T_Kitsunebi_icon_normal.png"
+            "iconPath": "/T_Kitsunebi_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 240,
+            "workSuitability": {
+                "kindling": 1
+            }
         },
         "LittleBriarRose": {
             "id": "LittleBriarRose",
@@ -318,7 +531,18 @@
             "name": "Bristla",
             "breedingPower": 1320,
             "tiebreakIndex": 26,
-            "iconPath": "/T_LittleBriarRose_icon_normal.png"
+            "iconPath": "/T_LittleBriarRose_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "planting": 1,
+                "handiwork": 1,
+                "gathering": 1,
+                "medicineProduction": 2,
+                "transporting": 1
+            }
         },
         "Mutant": {
             "id": "Mutant",
@@ -327,7 +551,16 @@
             "name": "Lunaris",
             "breedingPower": 1110,
             "tiebreakIndex": 27,
-            "iconPath": "/T_Mutant_icon_normal.png"
+            "iconPath": "/T_Mutant_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 315,
+            "workSuitability": {
+                "handiwork": 3,
+                "gathering": 1,
+                "transporting": 1
+            }
         },
         "Penguin": {
             "id": "Penguin",
@@ -336,7 +569,17 @@
             "name": "Pengullet",
             "breedingPower": 1350,
             "tiebreakIndex": 28,
-            "iconPath": "/T_Penguin_icon_normal.png"
+            "iconPath": "/T_Penguin_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 265,
+            "workSuitability": {
+                "watering": 1,
+                "handiwork": 1,
+                "cooling": 1,
+                "transporting": 1
+            }
         },
         "Penguin_Electric": {
             "id": "Penguin_Electric",
@@ -346,6 +589,16 @@
             "breedingPower": 1310,
             "tiebreakIndex": 29,
             "iconPath": "/T_Penguin_Electric_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 265,
+            "workSuitability": {
+                "watering": 1,
+                "generatingElectricity": 2,
+                "handiwork": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -365,7 +618,16 @@
             "name": "Dazzi",
             "breedingPower": 1210,
             "tiebreakIndex": 30,
-            "iconPath": "/T_RaijinDaughter_icon_normal.png"
+            "iconPath": "/T_RaijinDaughter_icon_normal.png",
+            "maleProbability": 20,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "generatingElectricity": 1,
+                "handiwork": 1,
+                "transporting": 1
+            }
         },
         "SharkKid": {
             "id": "SharkKid",
@@ -374,7 +636,16 @@
             "name": "Gobfin",
             "breedingPower": 1090,
             "tiebreakIndex": 31,
-            "iconPath": "/T_SharkKid_icon_normal.png"
+            "iconPath": "/T_SharkKid_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 120,
+            "workSuitability": {
+                "watering": 2,
+                "handiwork": 1,
+                "transporting": 1
+            }
         },
         "SharkKid_Fire": {
             "id": "SharkKid_Fire",
@@ -384,6 +655,15 @@
             "breedingPower": 1100,
             "tiebreakIndex": 32,
             "iconPath": "/T_SharkKid_Fire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 120,
+            "workSuitability": {
+                "kindling": 2,
+                "handiwork": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -403,7 +683,16 @@
             "name": "Lamball",
             "breedingPower": 1470,
             "tiebreakIndex": 33,
-            "iconPath": "/T_SheepBall_icon_normal.png"
+            "iconPath": "/T_SheepBall_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 160,
+            "workSuitability": {
+                "handiwork": 1,
+                "transporting": 1,
+                "farming": 1
+            }
         },
         "Umihebi": {
             "id": "Umihebi",
@@ -412,7 +701,14 @@
             "name": "Jormuntide",
             "breedingPower": 310,
             "tiebreakIndex": 34,
-            "iconPath": "/T_Umihebi_icon_normal.png"
+            "iconPath": "/T_Umihebi_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "watering": 4
+            }
         },
         "Umihebi_Fire": {
             "id": "Umihebi_Fire",
@@ -422,6 +718,13 @@
             "breedingPower": 315,
             "tiebreakIndex": 35,
             "iconPath": "/T_Umihebi_Fire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "kindling": 4
+            },
             "unique": true,
             "parents": [
                 [
@@ -441,7 +744,14 @@
             "name": "Loupmoon",
             "breedingPower": 950,
             "tiebreakIndex": 36,
-            "iconPath": "/T_Werewolf_icon_normal.png"
+            "iconPath": "/T_Werewolf_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 600,
+            "transportSpeed": 375,
+            "workSuitability": {
+                "handiwork": 2
+            }
         },
         "WindChimes": {
             "id": "WindChimes",
@@ -450,7 +760,16 @@
             "name": "Hangyu",
             "breedingPower": 1420,
             "tiebreakIndex": 37,
-            "iconPath": "/T_WindChimes_icon_normal.png"
+            "iconPath": "/T_WindChimes_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "handiwork": 1,
+                "gathering": 1,
+                "transporting": 2
+            }
         },
         "WindChimes_Ice": {
             "id": "WindChimes_Ice",
@@ -460,6 +779,16 @@
             "breedingPower": 1422,
             "tiebreakIndex": 38,
             "iconPath": "/T_WindChimes_Ice_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "handiwork": 1,
+                "gathering": 1,
+                "cooling": 1,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -479,7 +808,14 @@
             "name": "Suzaku",
             "breedingPower": 50,
             "tiebreakIndex": 39,
-            "iconPath": "/T_Suzaku_icon_normal.png"
+            "iconPath": "/T_Suzaku_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 850,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "kindling": 3
+            }
         },
         "Suzaku_Water": {
             "id": "Suzaku_Water",
@@ -489,6 +825,13 @@
             "breedingPower": 30,
             "tiebreakIndex": 40,
             "iconPath": "/T_Suzaku_Water_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 850,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "watering": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -508,7 +851,15 @@
             "name": "Pyrin",
             "breedingPower": 360,
             "tiebreakIndex": 41,
-            "iconPath": "/T_FireKirin_icon_normal.png"
+            "iconPath": "/T_FireKirin_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 850,
+            "transportSpeed": 500,
+            "workSuitability": {
+                "kindling": 2,
+                "lumbering": 1
+            }
         },
         "FireKirin_Dark": {
             "id": "FireKirin_Dark",
@@ -518,6 +869,14 @@
             "breedingPower": 240,
             "tiebreakIndex": 42,
             "iconPath": "/T_FireKirin_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 850,
+            "transportSpeed": 500,
+            "workSuitability": {
+                "kindling": 2,
+                "lumbering": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -537,7 +896,14 @@
             "name": "Elphidran",
             "breedingPower": 540,
             "tiebreakIndex": 43,
-            "iconPath": "/T_FairyDragon_icon_normal.png"
+            "iconPath": "/T_FairyDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 630,
+            "transportSpeed": 456,
+            "workSuitability": {
+                "lumbering": 2
+            }
         },
         "FairyDragon_Water": {
             "id": "FairyDragon_Water",
@@ -547,6 +913,14 @@
             "breedingPower": 530,
             "tiebreakIndex": 44,
             "iconPath": "/T_FairyDragon_Water_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 630,
+            "transportSpeed": 456,
+            "workSuitability": {
+                "watering": 3,
+                "lumbering": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -566,7 +940,14 @@
             "name": "Woolipop",
             "breedingPower": 1190,
             "tiebreakIndex": 45,
-            "iconPath": "/T_SweetsSheep_icon_normal.png"
+            "iconPath": "/T_SweetsSheep_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "farming": 1
+            }
         },
         "WhiteTiger": {
             "id": "WhiteTiger",
@@ -575,7 +956,17 @@
             "name": "Cryolinx",
             "breedingPower": 130,
             "tiebreakIndex": 46,
-            "iconPath": "/T_WhiteTiger_icon_normal.png"
+            "iconPath": "/T_WhiteTiger_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 720,
+            "transportSpeed": 460,
+            "workSuitability": {
+                "handiwork": 1,
+                "lumbering": 2,
+                "cooling": 3,
+                "transporting": 3
+            }
         },
         "Alpaca": {
             "id": "Alpaca",
@@ -584,7 +975,14 @@
             "name": "Melpaca",
             "breedingPower": 890,
             "tiebreakIndex": 47,
-            "iconPath": "/T_Alpaca_icon_normal.png"
+            "iconPath": "/T_Alpaca_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 261,
+            "workSuitability": {
+                "farming": 1
+            }
         },
         "Serpent": {
             "id": "Serpent",
@@ -593,7 +991,14 @@
             "name": "Surfent",
             "breedingPower": 560,
             "tiebreakIndex": 48,
-            "iconPath": "/T_Serpent_icon_normal.png"
+            "iconPath": "/T_Serpent_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "watering": 2
+            }
         },
         "Serpent_Ground": {
             "id": "Serpent_Ground",
@@ -603,6 +1008,13 @@
             "breedingPower": 550,
             "tiebreakIndex": 49,
             "iconPath": "/T_Serpent_Ground_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "gathering": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -622,7 +1034,14 @@
             "name": "Cawgnito",
             "breedingPower": 1080,
             "tiebreakIndex": 50,
-            "iconPath": "/T_DarkCrow_icon_normal.png"
+            "iconPath": "/T_DarkCrow_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 920,
+            "transportSpeed": 545,
+            "workSuitability": {
+                "lumbering": 1
+            }
         },
         "BlueDragon": {
             "id": "BlueDragon",
@@ -631,7 +1050,14 @@
             "name": "Azurobe",
             "breedingPower": 500,
             "tiebreakIndex": 51,
-            "iconPath": "/T_BlueDragon_icon_normal.png"
+            "iconPath": "/T_BlueDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "watering": 3
+            }
         },
         "BlueDragon_Ice": {
             "id": "BlueDragon_Ice",
@@ -641,6 +1067,13 @@
             "breedingPower": 480,
             "tiebreakIndex": 52,
             "iconPath": "/T_BlueDragon_Ice_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "cooling": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -660,7 +1093,17 @@
             "name": "Cattiva",
             "breedingPower": 1460,
             "tiebreakIndex": 53,
-            "iconPath": "/T_PinkCat_icon_normal.png"
+            "iconPath": "/T_PinkCat_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 160,
+            "workSuitability": {
+                "handiwork": 1,
+                "gathering": 1,
+                "mining": 1,
+                "transporting": 1
+            }
         },
         "NegativeKoala": {
             "id": "NegativeKoala",
@@ -669,7 +1112,16 @@
             "name": "Depresso",
             "breedingPower": 1380,
             "tiebreakIndex": 54,
-            "iconPath": "/T_NegativeKoala_icon_normal.png"
+            "iconPath": "/T_NegativeKoala_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 300,
+            "transportSpeed": 100,
+            "workSuitability": {
+                "handiwork": 1,
+                "mining": 1,
+                "transporting": 1
+            }
         },
         "FengyunDeeper": {
             "id": "FengyunDeeper",
@@ -678,7 +1130,14 @@
             "name": "Fenglope",
             "breedingPower": 980,
             "tiebreakIndex": 55,
-            "iconPath": "/T_FengyunDeeper_icon_normal.png"
+            "iconPath": "/T_FengyunDeeper_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 750,
+            "transportSpeed": 417,
+            "workSuitability": {
+                "lumbering": 2
+            }
         },
         "VolcanicMonster": {
             "id": "VolcanicMonster",
@@ -687,7 +1146,15 @@
             "name": "Reptyro",
             "breedingPower": 320,
             "tiebreakIndex": 56,
-            "iconPath": "/T_VolcanicMonster_icon_normal.png"
+            "iconPath": "/T_VolcanicMonster_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 235,
+            "workSuitability": {
+                "kindling": 3,
+                "mining": 3
+            }
         },
         "VolcanicMonster_Ice": {
             "id": "VolcanicMonster_Ice",
@@ -697,6 +1164,14 @@
             "breedingPower": 230,
             "tiebreakIndex": 57,
             "iconPath": "/T_VolcanicMonster_Ice_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 235,
+            "workSuitability": {
+                "mining": 3,
+                "cooling": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -716,7 +1191,15 @@
             "name": "Maraith",
             "breedingPower": 1150,
             "tiebreakIndex": 58,
-            "iconPath": "/T_GhostBeast_icon_normal.png"
+            "iconPath": "/T_GhostBeast_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 700,
+            "transportSpeed": 365,
+            "workSuitability": {
+                "gathering": 2,
+                "mining": 1
+            }
         },
         "RobinHood": {
             "id": "RobinHood",
@@ -725,7 +1208,19 @@
             "name": "Robinquill",
             "breedingPower": 1020,
             "tiebreakIndex": 59,
-            "iconPath": "/T_RobinHood_icon_normal.png"
+            "iconPath": "/T_RobinHood_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "planting": 1,
+                "handiwork": 2,
+                "gathering": 2,
+                "lumbering": 1,
+                "medicineProduction": 1,
+                "transporting": 2
+            }
         },
         "RobinHood_Ground": {
             "id": "RobinHood_Ground",
@@ -735,6 +1230,17 @@
             "breedingPower": 1000,
             "tiebreakIndex": 60,
             "iconPath": "/T_RobinHood_Ground_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "handiwork": 2,
+                "gathering": 2,
+                "lumbering": 1,
+                "medicineProduction": 1,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -754,7 +1260,15 @@
             "name": "Relaxaurus",
             "breedingPower": 280,
             "tiebreakIndex": 61,
-            "iconPath": "/T_LazyDragon_icon_normal.png"
+            "iconPath": "/T_LazyDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 650,
+            "transportSpeed": 150,
+            "workSuitability": {
+                "watering": 2,
+                "transporting": 1
+            }
         },
         "LazyDragon_Electric": {
             "id": "LazyDragon_Electric",
@@ -764,6 +1278,14 @@
             "breedingPower": 270,
             "tiebreakIndex": 62,
             "iconPath": "/T_LazyDragon_Electric_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 650,
+            "transportSpeed": 150,
+            "workSuitability": {
+                "generatingElectricity": 3,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -783,7 +1305,14 @@
             "name": "Kitsun",
             "breedingPower": 830,
             "tiebreakIndex": 63,
-            "iconPath": "/T_AmaterasuWolf_icon_normal.png"
+            "iconPath": "/T_AmaterasuWolf_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 415,
+            "workSuitability": {
+                "kindling": 2
+            }
         },
         "LizardMan": {
             "id": "LizardMan",
@@ -792,7 +1321,16 @@
             "name": "Leezpunk",
             "breedingPower": 1120,
             "tiebreakIndex": 64,
-            "iconPath": "/T_LizardMan_icon_normal.png"
+            "iconPath": "/T_LizardMan_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 600,
+            "transportSpeed": 270,
+            "workSuitability": {
+                "handiwork": 1,
+                "gathering": 1,
+                "transporting": 1
+            }
         },
         "LizardMan_Fire": {
             "id": "LizardMan_Fire",
@@ -802,6 +1340,16 @@
             "breedingPower": 1140,
             "tiebreakIndex": 65,
             "iconPath": "/T_LizardMan_Fire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 270,
+            "workSuitability": {
+                "kindling": 1,
+                "handiwork": 1,
+                "gathering": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -821,7 +1369,16 @@
             "name": "Fuack",
             "breedingPower": 1330,
             "tiebreakIndex": 66,
-            "iconPath": "/T_BluePlatypus_icon_normal.png"
+            "iconPath": "/T_BluePlatypus_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 202,
+            "workSuitability": {
+                "watering": 1,
+                "handiwork": 1,
+                "transporting": 1
+            }
         },
         "BluePlatypus_Fire": {
             "id": "BluePlatypus_Fire",
@@ -831,6 +1388,16 @@
             "breedingPower": 1290,
             "tiebreakIndex": 67,
             "iconPath": "/T_BluePlatypus_Fire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 202,
+            "workSuitability": {
+                "kindling": 1,
+                "watering": 1,
+                "handiwork": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -850,7 +1417,15 @@
             "name": "Vanwyrm",
             "breedingPower": 660,
             "tiebreakIndex": 68,
-            "iconPath": "/T_BirdDragon_icon_normal.png"
+            "iconPath": "/T_BirdDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 700,
+            "transportSpeed": 475,
+            "workSuitability": {
+                "kindling": 1,
+                "transporting": 3
+            }
         },
         "BirdDragon_Ice": {
             "id": "BirdDragon_Ice",
@@ -860,6 +1435,14 @@
             "breedingPower": 620,
             "tiebreakIndex": 69,
             "iconPath": "/T_BirdDragon_Ice_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 700,
+            "transportSpeed": 475,
+            "workSuitability": {
+                "cooling": 2,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -879,7 +1462,15 @@
             "name": "Chikipi",
             "breedingPower": 1500,
             "tiebreakIndex": 70,
-            "iconPath": "/T_ChickenPal_icon_normal.png"
+            "iconPath": "/T_ChickenPal_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 375,
+            "transportSpeed": 212,
+            "workSuitability": {
+                "gathering": 1,
+                "farming": 1
+            }
         },
         "FlowerDinosaur": {
             "id": "FlowerDinosaur",
@@ -888,7 +1479,15 @@
             "name": "Dinossom",
             "breedingPower": 820,
             "tiebreakIndex": 71,
-            "iconPath": "/T_FlowerDinosaur_icon_normal.png"
+            "iconPath": "/T_FlowerDinosaur_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 335,
+            "workSuitability": {
+                "planting": 2,
+                "lumbering": 2
+            }
         },
         "FlowerDinosaur_Electric": {
             "id": "FlowerDinosaur_Electric",
@@ -898,6 +1497,14 @@
             "breedingPower": 810,
             "tiebreakIndex": 72,
             "iconPath": "/T_FlowerDinosaur_Electric_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 335,
+            "workSuitability": {
+                "generatingElectricity": 2,
+                "lumbering": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -917,7 +1524,16 @@
             "name": "Sparkit",
             "breedingPower": 1410,
             "tiebreakIndex": 73,
-            "iconPath": "/T_ElecCat_icon_normal.png"
+            "iconPath": "/T_ElecCat_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 350,
+            "transportSpeed": 270,
+            "workSuitability": {
+                "generatingElectricity": 1,
+                "handiwork": 1,
+                "transporting": 1
+            }
         },
         "IceHorse": {
             "id": "IceHorse",
@@ -927,6 +1543,13 @@
             "breedingPower": 120,
             "tiebreakIndex": 74,
             "iconPath": "/T_IceHorse_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 1200,
+            "transportSpeed": 440,
+            "workSuitability": {
+                "cooling": 4
+            },
             "unique": true,
             "parents": [
                 [
@@ -943,6 +1566,13 @@
             "breedingPower": 100,
             "tiebreakIndex": 75,
             "iconPath": "/T_IceHorse_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 1200,
+            "transportSpeed": 440,
+            "workSuitability": {
+                "gathering": 4
+            },
             "unique": true,
             "parents": [
                 [
@@ -962,7 +1592,16 @@
             "name": "Mammorest",
             "breedingPower": 300,
             "tiebreakIndex": 76,
-            "iconPath": "/T_GrassMammoth_icon_normal.png"
+            "iconPath": "/T_GrassMammoth_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 282,
+            "workSuitability": {
+                "planting": 2,
+                "lumbering": 2,
+                "mining": 2
+            }
         },
         "GrassMammoth_Ice": {
             "id": "GrassMammoth_Ice",
@@ -972,6 +1611,15 @@
             "breedingPower": 290,
             "tiebreakIndex": 77,
             "iconPath": "/T_GrassMammoth_Ice_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 282,
+            "workSuitability": {
+                "lumbering": 2,
+                "mining": 2,
+                "cooling": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -991,7 +1639,14 @@
             "name": "Felbat",
             "breedingPower": 1010,
             "tiebreakIndex": 78,
-            "iconPath": "/T_CatVampire_icon_normal.png"
+            "iconPath": "/T_CatVampire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 550,
+            "transportSpeed": 325,
+            "workSuitability": {
+                "medicineProduction": 3
+            }
         },
         "SakuraSaurus": {
             "id": "SakuraSaurus",
@@ -1000,7 +1655,14 @@
             "name": "Broncherry",
             "breedingPower": 860,
             "tiebreakIndex": 79,
-            "iconPath": "/T_SakuraSaurus_icon_normal.png"
+            "iconPath": "/T_SakuraSaurus_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "planting": 3
+            }
         },
         "SakuraSaurus_Water": {
             "id": "SakuraSaurus_Water",
@@ -1010,6 +1672,13 @@
             "breedingPower": 840,
             "tiebreakIndex": 80,
             "iconPath": "/T_SakuraSaurus_Water_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "watering": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1030,6 +1699,14 @@
             "breedingPower": 370,
             "tiebreakIndex": 81,
             "iconPath": "/T_Horus_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 1000,
+            "transportSpeed": 500,
+            "workSuitability": {
+                "kindling": 3,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1049,7 +1726,15 @@
             "name": "Blazamut",
             "breedingPower": 10,
             "tiebreakIndex": 82,
-            "iconPath": "/T_KingBahamut_icon_normal.png"
+            "iconPath": "/T_KingBahamut_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 500,
+            "workSuitability": {
+                "kindling": 3,
+                "mining": 4
+            }
         },
         "KingBahamut_Dragon": {
             "id": "KingBahamut_Dragon",
@@ -1059,6 +1744,14 @@
             "breedingPower": 9,
             "tiebreakIndex": 83,
             "iconPath": "/T_KingBahamut_Dragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 500,
+            "workSuitability": {
+                "kindling": 4,
+                "mining": 4
+            },
             "unique": true,
             "parents": [
                 [
@@ -1074,7 +1767,15 @@
             "name": "Caprity",
             "breedingPower": 930,
             "tiebreakIndex": 84,
-            "iconPath": "/T_BerryGoat_icon_normal.png"
+            "iconPath": "/T_BerryGoat_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 235,
+            "workSuitability": {
+                "planting": 2,
+                "farming": 1
+            }
         },
         "IceDeer": {
             "id": "IceDeer",
@@ -1083,7 +1784,15 @@
             "name": "Reindrix",
             "breedingPower": 880,
             "tiebreakIndex": 85,
-            "iconPath": "/T_IceDeer_icon_normal.png"
+            "iconPath": "/T_IceDeer_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 310,
+            "workSuitability": {
+                "lumbering": 2,
+                "cooling": 2
+            }
         },
         "BlackGriffon": {
             "id": "BlackGriffon",
@@ -1093,6 +1802,13 @@
             "breedingPower": 60,
             "tiebreakIndex": 86,
             "iconPath": "/T_BlackGriffon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 850,
+            "transportSpeed": 465,
+            "workSuitability": {
+                "gathering": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -1112,7 +1828,16 @@
             "name": "Sibelyx",
             "breedingPower": 450,
             "tiebreakIndex": 87,
-            "iconPath": "/T_WhiteMoth_icon_normal.png"
+            "iconPath": "/T_WhiteMoth_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "medicineProduction": 2,
+                "cooling": 2,
+                "farming": 1
+            }
         },
         "CuteFox": {
             "id": "CuteFox",
@@ -1121,7 +1846,15 @@
             "name": "Vixy",
             "breedingPower": 1450,
             "tiebreakIndex": 88,
-            "iconPath": "/T_CuteFox_icon_normal.png"
+            "iconPath": "/T_CuteFox_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 350,
+            "transportSpeed": 190,
+            "workSuitability": {
+                "gathering": 1,
+                "farming": 1
+            }
         },
         "FoxMage": {
             "id": "FoxMage",
@@ -1130,7 +1863,16 @@
             "name": "Wixen",
             "breedingPower": 1160,
             "tiebreakIndex": 89,
-            "iconPath": "/T_FoxMage_icon_normal.png"
+            "iconPath": "/T_FoxMage_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 440,
+            "transportSpeed": 292,
+            "workSuitability": {
+                "kindling": 2,
+                "handiwork": 3,
+                "transporting": 2
+            }
         },
         "FoxMage_Dark": {
             "id": "FoxMage_Dark",
@@ -1140,6 +1882,15 @@
             "breedingPower": 1150,
             "tiebreakIndex": 90,
             "iconPath": "/T_FoxMage_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 440,
+            "transportSpeed": 292,
+            "workSuitability": {
+                "kindling": 2,
+                "handiwork": 3,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -1159,7 +1910,17 @@
             "name": "Lovander",
             "breedingPower": 940,
             "tiebreakIndex": 91,
-            "iconPath": "/T_PinkLizard_icon_normal.png"
+            "iconPath": "/T_PinkLizard_icon_normal.png",
+            "maleProbability": 30,
+            "nocturnal": true,
+            "runSpeed": 750,
+            "transportSpeed": 460,
+            "workSuitability": {
+                "handiwork": 2,
+                "mining": 1,
+                "medicineProduction": 2,
+                "transporting": 2
+            }
         },
         "WizardOwl": {
             "id": "WizardOwl",
@@ -1168,7 +1929,14 @@
             "name": "Hoocrates",
             "breedingPower": 1390,
             "tiebreakIndex": 92,
-            "iconPath": "/T_WizardOwl_icon_normal.png"
+            "iconPath": "/T_WizardOwl_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 380,
+            "transportSpeed": 225,
+            "workSuitability": {
+                "gathering": 1
+            }
         },
         "Kelpie": {
             "id": "Kelpie",
@@ -1177,7 +1945,15 @@
             "name": "Kelpsea",
             "breedingPower": 1260,
             "tiebreakIndex": 93,
-            "iconPath": "/T_Kelpie_icon_normal.png"
+            "iconPath": "/T_Kelpie_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "watering": 1,
+                "farming": 1
+            }
         },
         "Kelpie_Fire": {
             "id": "Kelpie_Fire",
@@ -1186,7 +1962,15 @@
             "name": "Kelpsea Ignis",
             "breedingPower": 1270,
             "tiebreakIndex": 94,
-            "iconPath": "/T_Kelpie_Fire_icon_normal.png"
+            "iconPath": "/T_Kelpie_Fire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "kindling": 1,
+                "farming": 1
+            }
         },
         "NegativeOctopus": {
             "id": "NegativeOctopus",
@@ -1195,7 +1979,16 @@
             "name": "Killamari",
             "breedingPower": 1290,
             "tiebreakIndex": 95,
-            "iconPath": "/T_NegativeOctopus_icon_normal.png"
+            "iconPath": "/T_NegativeOctopus_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 400,
+            "transportSpeed": 260,
+            "workSuitability": {
+                "watering": 1,
+                "gathering": 1,
+                "transporting": 2
+            }
         },
         "NegativeOctopus_Neutral": {
             "id": "NegativeOctopus_Neutral",
@@ -1205,6 +1998,15 @@
             "breedingPower": 1250,
             "tiebreakIndex": 96,
             "iconPath": "/T_NegativeOctopus_Neutral_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 260,
+            "workSuitability": {
+                "watering": 1,
+                "gathering": 1,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -1224,7 +2026,14 @@
             "name": "Mozzarina",
             "breedingPower": 910,
             "tiebreakIndex": 97,
-            "iconPath": "/T_CowPal_icon_normal.png"
+            "iconPath": "/T_CowPal_icon_normal.png",
+            "maleProbability": 20,
+            "nocturnal": false,
+            "runSpeed": 580,
+            "transportSpeed": 317,
+            "workSuitability": {
+                "farming": 1
+            }
         },
         "Yeti": {
             "id": "Yeti",
@@ -1233,7 +2042,17 @@
             "name": "Wumpo",
             "breedingPower": 460,
             "tiebreakIndex": 98,
-            "iconPath": "/T_Yeti_icon_normal.png"
+            "iconPath": "/T_Yeti_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 150,
+            "workSuitability": {
+                "handiwork": 2,
+                "lumbering": 3,
+                "cooling": 2,
+                "transporting": 4
+            }
         },
         "Yeti_Grass": {
             "id": "Yeti_Grass",
@@ -1242,7 +2061,17 @@
             "name": "Wumpo Botan",
             "breedingPower": 480,
             "tiebreakIndex": 99,
-            "iconPath": "/T_Yeti_Grass_icon_normal.png"
+            "iconPath": "/T_Yeti_Grass_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 150,
+            "workSuitability": {
+                "planting": 1,
+                "handiwork": 2,
+                "lumbering": 3,
+                "transporting": 4
+            }
         },
         "VioletFairy": {
             "id": "VioletFairy",
@@ -1251,7 +2080,18 @@
             "name": "Vaelet",
             "breedingPower": 1050,
             "tiebreakIndex": 100,
-            "iconPath": "/T_VioletFairy_icon_normal.png"
+            "iconPath": "/T_VioletFairy_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "planting": 2,
+                "handiwork": 2,
+                "gathering": 2,
+                "medicineProduction": 3,
+                "transporting": 1
+            }
         },
         "HawkBird": {
             "id": "HawkBird",
@@ -1260,7 +2100,14 @@
             "name": "Nitewing",
             "breedingPower": 420,
             "tiebreakIndex": 101,
-            "iconPath": "/T_HawkBird_icon_normal.png"
+            "iconPath": "/T_HawkBird_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "gathering": 2
+            }
         },
         "FlowerRabbit": {
             "id": "FlowerRabbit",
@@ -1269,7 +2116,18 @@
             "name": "Flopie",
             "breedingPower": 1280,
             "tiebreakIndex": 102,
-            "iconPath": "/T_FlowerRabbit_icon_normal.png"
+            "iconPath": "/T_FlowerRabbit_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "planting": 1,
+                "handiwork": 1,
+                "gathering": 1,
+                "medicineProduction": 1,
+                "transporting": 1
+            }
         },
         "LilyQueen": {
             "id": "LilyQueen",
@@ -1279,6 +2137,16 @@
             "breedingPower": 250,
             "tiebreakIndex": 103,
             "iconPath": "/T_LilyQueen_icon_normal.png",
+            "maleProbability": 30,
+            "nocturnal": false,
+            "runSpeed": 450,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "planting": 4,
+                "handiwork": 3,
+                "gathering": 2,
+                "medicineProduction": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1299,6 +2167,15 @@
             "breedingPower": 210,
             "tiebreakIndex": 104,
             "iconPath": "/T_LilyQueen_Dark_icon_normal.png",
+            "maleProbability": 30,
+            "nocturnal": true,
+            "runSpeed": 450,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "handiwork": 3,
+                "gathering": 2,
+                "medicineProduction": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1318,7 +2195,18 @@
             "name": "Elizabee",
             "breedingPower": 330,
             "tiebreakIndex": 105,
-            "iconPath": "/T_QueenBee_icon_normal.png"
+            "iconPath": "/T_QueenBee_icon_normal.png",
+            "maleProbability": 10,
+            "nocturnal": false,
+            "runSpeed": 450,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "planting": 2,
+                "handiwork": 2,
+                "gathering": 2,
+                "lumbering": 1,
+                "medicineProduction": 2
+            }
         },
         "SoldierBee": {
             "id": "SoldierBee",
@@ -1327,7 +2215,20 @@
             "name": "Beegarde",
             "breedingPower": 1070,
             "tiebreakIndex": 106,
-            "iconPath": "/T_SoldierBee_icon_normal.png"
+            "iconPath": "/T_SoldierBee_icon_normal.png",
+            "maleProbability": 10,
+            "nocturnal": false,
+            "runSpeed": 450,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "planting": 1,
+                "handiwork": 1,
+                "gathering": 1,
+                "lumbering": 1,
+                "medicineProduction": 1,
+                "transporting": 2,
+                "farming": 1
+            }
         },
         "CatBat": {
             "id": "CatBat",
@@ -1336,7 +2237,16 @@
             "name": "Tombat",
             "breedingPower": 750,
             "tiebreakIndex": 107,
-            "iconPath": "/T_CatBat_icon_normal.png"
+            "iconPath": "/T_CatBat_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 400,
+            "transportSpeed": 270,
+            "workSuitability": {
+                "gathering": 2,
+                "mining": 2,
+                "transporting": 2
+            }
         },
         "GrassPanda": {
             "id": "GrassPanda",
@@ -1345,7 +2255,17 @@
             "name": "Mossanda",
             "breedingPower": 430,
             "tiebreakIndex": 108,
-            "iconPath": "/T_GrassPanda_icon_normal.png"
+            "iconPath": "/T_GrassPanda_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "planting": 2,
+                "handiwork": 2,
+                "lumbering": 2,
+                "transporting": 3
+            }
         },
         "GrassPanda_Electric": {
             "id": "GrassPanda_Electric",
@@ -1355,6 +2275,16 @@
             "breedingPower": 390,
             "tiebreakIndex": 109,
             "iconPath": "/T_GrassPanda_Electric_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "generatingElectricity": 2,
+                "handiwork": 2,
+                "lumbering": 2,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1374,7 +2304,15 @@
             "name": "Arsox",
             "breedingPower": 790,
             "tiebreakIndex": 110,
-            "iconPath": "/T_FlameBuffalo_icon_normal.png"
+            "iconPath": "/T_FlameBuffalo_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 343,
+            "workSuitability": {
+                "kindling": 2,
+                "lumbering": 1
+            }
         },
         "ThunderDog": {
             "id": "ThunderDog",
@@ -1383,7 +2321,14 @@
             "name": "Rayhound",
             "breedingPower": 740,
             "tiebreakIndex": 111,
-            "iconPath": "/T_ThunderDog_icon_normal.png"
+            "iconPath": "/T_ThunderDog_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 455,
+            "workSuitability": {
+                "generatingElectricity": 2
+            }
         },
         "CuteMole": {
             "id": "CuteMole",
@@ -1392,7 +2337,16 @@
             "name": "Fuddler",
             "breedingPower": 1220,
             "tiebreakIndex": 112,
-            "iconPath": "/T_CuteMole_icon_normal.png"
+            "iconPath": "/T_CuteMole_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 240,
+            "workSuitability": {
+                "handiwork": 1,
+                "mining": 1,
+                "transporting": 1
+            }
         },
         "BlackMetalDragon": {
             "id": "BlackMetalDragon",
@@ -1401,7 +2355,15 @@
             "name": "Astegon",
             "breedingPower": 150,
             "tiebreakIndex": 113,
-            "iconPath": "/T_BlackMetalDragon_icon_normal.png"
+            "iconPath": "/T_BlackMetalDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 700,
+            "transportSpeed": 375,
+            "workSuitability": {
+                "handiwork": 1,
+                "mining": 4
+            }
         },
         "GrassRabbitMan": {
             "id": "GrassRabbitMan",
@@ -1410,7 +2372,18 @@
             "name": "Verdash",
             "breedingPower": 990,
             "tiebreakIndex": 114,
-            "iconPath": "/T_GrassRabbitMan_icon_normal.png"
+            "iconPath": "/T_GrassRabbitMan_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "planting": 2,
+                "handiwork": 3,
+                "gathering": 3,
+                "lumbering": 2,
+                "transporting": 2
+            }
         },
         "IceFox": {
             "id": "IceFox",
@@ -1419,7 +2392,14 @@
             "name": "Foxcicle",
             "breedingPower": 760,
             "tiebreakIndex": 115,
-            "iconPath": "/T_IceFox_icon_normal.png"
+            "iconPath": "/T_IceFox_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 315,
+            "workSuitability": {
+                "cooling": 2
+            }
         },
         "JetDragon": {
             "id": "JetDragon",
@@ -1429,6 +2409,13 @@
             "breedingPower": 90,
             "tiebreakIndex": 116,
             "iconPath": "/T_JetDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 1700,
+            "transportSpeed": 1250,
+            "workSuitability": {
+                "gathering": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1444,7 +2431,16 @@
             "name": "Daedream",
             "breedingPower": 1230,
             "tiebreakIndex": 117,
-            "iconPath": "/T_DreamDemon_icon_normal.png"
+            "iconPath": "/T_DreamDemon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 300,
+            "transportSpeed": 220,
+            "workSuitability": {
+                "handiwork": 1,
+                "gathering": 1,
+                "transporting": 1
+            }
         },
         "Monkey": {
             "id": "Monkey",
@@ -1453,7 +2449,18 @@
             "name": "Tanzee",
             "breedingPower": 1250,
             "tiebreakIndex": 118,
-            "iconPath": "/T_Monkey_icon_normal.png"
+            "iconPath": "/T_Monkey_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 174,
+            "workSuitability": {
+                "planting": 1,
+                "handiwork": 1,
+                "gathering": 1,
+                "lumbering": 1,
+                "transporting": 1
+            }
         },
         "Manticore": {
             "id": "Manticore",
@@ -1462,7 +2469,15 @@
             "name": "Blazehowl",
             "breedingPower": 710,
             "tiebreakIndex": 119,
-            "iconPath": "/T_Manticore_icon_normal.png"
+            "iconPath": "/T_Manticore_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 465,
+            "workSuitability": {
+                "kindling": 3,
+                "lumbering": 2
+            }
         },
         "Manticore_Dark": {
             "id": "Manticore_Dark",
@@ -1472,6 +2487,14 @@
             "breedingPower": 670,
             "tiebreakIndex": 120,
             "iconPath": "/T_Manticore_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 800,
+            "transportSpeed": 420,
+            "workSuitability": {
+                "kindling": 3,
+                "lumbering": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -1491,7 +2514,14 @@
             "name": "Kingpaca",
             "breedingPower": 470,
             "tiebreakIndex": 121,
-            "iconPath": "/T_KingAlpaca_icon_normal.png"
+            "iconPath": "/T_KingAlpaca_icon_normal.png",
+            "maleProbability": 90,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 290,
+            "workSuitability": {
+                "gathering": 1
+            }
         },
         "KingAlpaca_Ice": {
             "id": "KingAlpaca_Ice",
@@ -1501,6 +2531,14 @@
             "breedingPower": 440,
             "tiebreakIndex": 122,
             "iconPath": "/T_KingAlpaca_Ice_icon_normal.png",
+            "maleProbability": 90,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": 290,
+            "workSuitability": {
+                "gathering": 1,
+                "cooling": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1520,7 +2558,14 @@
             "name": "Gumoss",
             "breedingPower": 1240,
             "tiebreakIndex": 123,
-            "iconPath": "/T_PlantSlime_icon_normal.png"
+            "iconPath": "/T_PlantSlime_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 175,
+            "workSuitability": {
+                "planting": 1
+            }
         },
         "MopBaby": {
             "id": "MopBaby",
@@ -1529,7 +2574,15 @@
             "name": "Swee",
             "breedingPower": 1300,
             "tiebreakIndex": 124,
-            "iconPath": "/T_MopBaby_icon_normal.png"
+            "iconPath": "/T_MopBaby_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 250,
+            "transportSpeed": 175,
+            "workSuitability": {
+                "gathering": 1,
+                "cooling": 1
+            }
         },
         "MopKing": {
             "id": "MopKing",
@@ -1538,7 +2591,15 @@
             "name": "Sweepa",
             "breedingPower": 410,
             "tiebreakIndex": 125,
-            "iconPath": "/T_MopKing_icon_normal.png"
+            "iconPath": "/T_MopKing_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 650,
+            "transportSpeed": 210,
+            "workSuitability": {
+                "gathering": 2,
+                "cooling": 2
+            }
         },
         "CatMage": {
             "id": "CatMage",
@@ -1547,7 +2608,16 @@
             "name": "Katress",
             "breedingPower": 700,
             "tiebreakIndex": 126,
-            "iconPath": "/T_CatMage_icon_normal.png"
+            "iconPath": "/T_CatMage_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 440,
+            "transportSpeed": 292,
+            "workSuitability": {
+                "handiwork": 2,
+                "medicineProduction": 2,
+                "transporting": 2
+            }
         },
         "CatMage_Fire": {
             "id": "CatMage_Fire",
@@ -1557,6 +2627,16 @@
             "breedingPower": 690,
             "tiebreakIndex": 127,
             "iconPath": "/T_CatMage_Fire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 440,
+            "transportSpeed": 292,
+            "workSuitability": {
+                "kindling": 2,
+                "handiwork": 2,
+                "medicineProduction": 2,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -1576,7 +2656,16 @@
             "name": "Ribbuny",
             "breedingPower": 1310,
             "tiebreakIndex": 128,
-            "iconPath": "/T_PinkRabbit_icon_normal.png"
+            "iconPath": "/T_PinkRabbit_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 245,
+            "transportSpeed": 172,
+            "workSuitability": {
+                "handiwork": 1,
+                "gathering": 1,
+                "transporting": 1
+            }
         },
         "ThunderBird": {
             "id": "ThunderBird",
@@ -1585,7 +2674,16 @@
             "name": "Beakon",
             "breedingPower": 220,
             "tiebreakIndex": 129,
-            "iconPath": "/T_ThunderBird_icon_normal.png"
+            "iconPath": "/T_ThunderBird_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 750,
+            "transportSpeed": 375,
+            "workSuitability": {
+                "generatingElectricity": 2,
+                "gathering": 1,
+                "transporting": 3
+            }
         },
         "HerculesBeetle": {
             "id": "HerculesBeetle",
@@ -1594,7 +2692,17 @@
             "name": "Warsect ",
             "breedingPower": 340,
             "tiebreakIndex": 130,
-            "iconPath": "/T_HerculesBeetle_icon_normal.png"
+            "iconPath": "/T_HerculesBeetle_icon_normal.png",
+            "maleProbability": 85,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 110,
+            "workSuitability": {
+                "planting": 1,
+                "handiwork": 1,
+                "lumbering": 3,
+                "transporting": 3
+            }
         },
         "HerculesBeetle_Ground": {
             "id": "HerculesBeetle_Ground",
@@ -1604,6 +2712,15 @@
             "breedingPower": 275,
             "tiebreakIndex": 131,
             "iconPath": "/T_HerculesBeetle_Ground_icon_normal.png",
+            "maleProbability": 85,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": 110,
+            "workSuitability": {
+                "handiwork": 1,
+                "mining": 3,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1628,6 +2745,14 @@
             "breedingPower": 80,
             "tiebreakIndex": 132,
             "iconPath": "/T_SaintCentaur_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "lumbering": 2,
+                "mining": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -1643,7 +2768,14 @@
             "name": "Nox",
             "breedingPower": 1180,
             "tiebreakIndex": 133,
-            "iconPath": "/T_NightFox_icon_normal.png"
+            "iconPath": "/T_NightFox_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 300,
+            "transportSpeed": 164,
+            "workSuitability": {
+                "gathering": 1
+            }
         },
         "CaptainPenguin": {
             "id": "CaptainPenguin",
@@ -1652,7 +2784,18 @@
             "name": "Penking",
             "breedingPower": 520,
             "tiebreakIndex": 134,
-            "iconPath": "/T_CaptainPenguin_icon_normal.png"
+            "iconPath": "/T_CaptainPenguin_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 450,
+            "transportSpeed": 280,
+            "workSuitability": {
+                "watering": 2,
+                "handiwork": 2,
+                "mining": 2,
+                "cooling": 2,
+                "transporting": 2
+            }
         },
         "CaptainPenguin_Black": {
             "id": "CaptainPenguin_Black",
@@ -1662,6 +2805,17 @@
             "breedingPower": 490,
             "tiebreakIndex": 135,
             "iconPath": "/T_CaptainPenguin_Black_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 450,
+            "transportSpeed": 280,
+            "workSuitability": {
+                "watering": 2,
+                "generatingElectricity": 2,
+                "handiwork": 2,
+                "mining": 2,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -1681,7 +2835,15 @@
             "name": "Chillet",
             "breedingPower": 800,
             "tiebreakIndex": 136,
-            "iconPath": "/T_WeaselDragon_icon_normal.png"
+            "iconPath": "/T_WeaselDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 750,
+            "transportSpeed": 390,
+            "workSuitability": {
+                "gathering": 1,
+                "cooling": 1
+            }
         },
         "WeaselDragon_Fire": {
             "id": "WeaselDragon_Fire",
@@ -1691,6 +2853,14 @@
             "breedingPower": 790,
             "tiebreakIndex": 137,
             "iconPath": "/T_WeaselDragon_Fire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 750,
+            "transportSpeed": 390,
+            "workSuitability": {
+                "kindling": 2,
+                "gathering": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -1710,7 +2880,17 @@
             "name": "Quivern",
             "breedingPower": 350,
             "tiebreakIndex": 138,
-            "iconPath": "/T_SkyDragon_icon_normal.png"
+            "iconPath": "/T_SkyDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 470,
+            "workSuitability": {
+                "handiwork": 1,
+                "gathering": 2,
+                "mining": 2,
+                "transporting": 3
+            }
         },
         "SkyDragon_Grass": {
             "id": "SkyDragon_Grass",
@@ -1720,6 +2900,17 @@
             "breedingPower": 340,
             "tiebreakIndex": 139,
             "iconPath": "/T_SkyDragon_Grass_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 470,
+            "workSuitability": {
+                "planting": 2,
+                "handiwork": 1,
+                "gathering": 2,
+                "mining": 2,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1739,7 +2930,14 @@
             "name": "Helzephyr",
             "breedingPower": 190,
             "tiebreakIndex": 140,
-            "iconPath": "/T_HadesBird_icon_normal.png"
+            "iconPath": "/T_HadesBird_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 700,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "transporting": 3
+            }
         },
         "HadesBird_Electric": {
             "id": "HadesBird_Electric",
@@ -1749,6 +2947,14 @@
             "breedingPower": 180,
             "tiebreakIndex": 141,
             "iconPath": "/T_HadesBird_Electric_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 700,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "generatingElectricity": 3,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1768,7 +2974,15 @@
             "name": "Ragnahawk",
             "breedingPower": 380,
             "tiebreakIndex": 142,
-            "iconPath": "/T_RedArmorBird_icon_normal.png"
+            "iconPath": "/T_RedArmorBird_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 375,
+            "workSuitability": {
+                "kindling": 3,
+                "transporting": 3
+            }
         },
         "Ronin": {
             "id": "Ronin",
@@ -1777,7 +2991,18 @@
             "name": "Bushi",
             "breedingPower": 640,
             "tiebreakIndex": 143,
-            "iconPath": "/T_Ronin_icon_normal.png"
+            "iconPath": "/T_Ronin_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 320,
+            "workSuitability": {
+                "kindling": 2,
+                "handiwork": 1,
+                "gathering": 1,
+                "lumbering": 3,
+                "transporting": 2
+            }
         },
         "Ronin_Dark": {
             "id": "Ronin_Dark",
@@ -1787,6 +3012,17 @@
             "breedingPower": 650,
             "tiebreakIndex": 144,
             "iconPath": "/T_Ronin_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 600,
+            "transportSpeed": 320,
+            "workSuitability": {
+                "kindling": 2,
+                "handiwork": 1,
+                "gathering": 1,
+                "lumbering": 3,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -1806,7 +3042,15 @@
             "name": "Celaray",
             "breedingPower": 870,
             "tiebreakIndex": 145,
-            "iconPath": "/T_FlyingManta_icon_normal.png"
+            "iconPath": "/T_FlyingManta_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "watering": 1,
+                "transporting": 1
+            }
         },
         "FlyingManta_Thunder": {
             "id": "FlyingManta_Thunder",
@@ -1816,6 +3060,15 @@
             "breedingPower": 830,
             "tiebreakIndex": 146,
             "iconPath": "/T_FlyingManta_Thunder_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "watering": 1,
+                "generatingElectricity": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -1836,6 +3089,14 @@
             "breedingPower": 70,
             "tiebreakIndex": 147,
             "iconPath": "/T_BlackCentaur_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 1300,
+            "transportSpeed": 625,
+            "workSuitability": {
+                "lumbering": 2,
+                "mining": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -1851,7 +3112,18 @@
             "name": "Petallia",
             "breedingPower": 780,
             "tiebreakIndex": 148,
-            "iconPath": "/T_FlowerDoll_icon_normal.png"
+            "iconPath": "/T_FlowerDoll_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "planting": 3,
+                "handiwork": 2,
+                "gathering": 2,
+                "medicineProduction": 2,
+                "transporting": 1
+            }
         },
         "NaughtyCat": {
             "id": "NaughtyCat",
@@ -1860,7 +3132,14 @@
             "name": "Grintale",
             "breedingPower": 510,
             "tiebreakIndex": 149,
-            "iconPath": "/T_NaughtyCat_icon_normal.png"
+            "iconPath": "/T_NaughtyCat_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 650,
+            "transportSpeed": 332,
+            "workSuitability": {
+                "gathering": 2
+            }
         },
         "CuteButterfly": {
             "id": "CuteButterfly",
@@ -1869,7 +3148,15 @@
             "name": "Cinnamoth",
             "breedingPower": 490,
             "tiebreakIndex": 150,
-            "iconPath": "/T_CuteButterfly_icon_normal.png"
+            "iconPath": "/T_CuteButterfly_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "planting": 2,
+                "medicineProduction": 1
+            }
         },
         "DarkScorpion": {
             "id": "DarkScorpion",
@@ -1878,7 +3165,15 @@
             "name": "Menasting",
             "breedingPower": 260,
             "tiebreakIndex": 151,
-            "iconPath": "/T_DarkScorpion_icon_normal.png"
+            "iconPath": "/T_DarkScorpion_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 1000,
+            "transportSpeed": 600,
+            "workSuitability": {
+                "lumbering": 2,
+                "mining": 3
+            }
         },
         "DarkScorpion_Ground": {
             "id": "DarkScorpion_Ground",
@@ -1888,6 +3183,14 @@
             "breedingPower": 250,
             "tiebreakIndex": 152,
             "iconPath": "/T_DarkScorpion_Ground_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 1000,
+            "transportSpeed": 600,
+            "workSuitability": {
+                "lumbering": 2,
+                "mining": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1908,6 +3211,15 @@
             "breedingPower": 140,
             "tiebreakIndex": 153,
             "iconPath": "/T_ThunderDragonMan_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 900,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "generatingElectricity": 4,
+                "handiwork": 2,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -1927,7 +3239,15 @@
             "name": "Cremis",
             "breedingPower": 1455,
             "tiebreakIndex": 154,
-            "iconPath": "/T_WoolFox_icon_normal.png"
+            "iconPath": "/T_WoolFox_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 170,
+            "workSuitability": {
+                "gathering": 1,
+                "farming": 1
+            }
         },
         "LazyCatfish": {
             "id": "LazyCatfish",
@@ -1936,7 +3256,17 @@
             "name": "Dumud",
             "breedingPower": 895,
             "tiebreakIndex": 155,
-            "iconPath": "/T_LazyCatfish_icon_normal.png"
+            "iconPath": "/T_LazyCatfish_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 450,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "watering": 1,
+                "mining": 2,
+                "transporting": 1,
+                "farming": 1
+            }
         },
         "LazyCatfish_Gold": {
             "id": "LazyCatfish_Gold",
@@ -1946,6 +3276,16 @@
             "breedingPower": 855,
             "tiebreakIndex": 156,
             "iconPath": "/T_LazyCatfish_Gold_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 450,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "watering": 1,
+                "mining": 2,
+                "transporting": 1,
+                "farming": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -1965,7 +3305,17 @@
             "name": "Flambelle",
             "breedingPower": 1405,
             "tiebreakIndex": 157,
-            "iconPath": "/T_LavaGirl_icon_normal.png"
+            "iconPath": "/T_LavaGirl_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 250,
+            "transportSpeed": 140,
+            "workSuitability": {
+                "kindling": 1,
+                "handiwork": 1,
+                "transporting": 1,
+                "farming": 1
+            }
         },
         "FlameBambi": {
             "id": "FlameBambi",
@@ -1974,7 +3324,14 @@
             "name": "Rooby",
             "breedingPower": 1155,
             "tiebreakIndex": 158,
-            "iconPath": "/T_FlameBambi_icon_normal.png"
+            "iconPath": "/T_FlameBambi_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "kindling": 1
+            }
         },
         "NightLady": {
             "id": "NightLady",
@@ -1984,6 +3341,15 @@
             "breedingPower": 1,
             "tiebreakIndex": 159,
             "iconPath": "/T_NightLady_icon_normal.png",
+            "maleProbability": 10,
+            "nocturnal": true,
+            "runSpeed": 600,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "handiwork": 2,
+                "medicineProduction": 4,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -2004,6 +3370,15 @@
             "breedingPower": 1,
             "tiebreakIndex": 160,
             "iconPath": "/T_NightLady_Dark_icon_normal.png",
+            "maleProbability": 10,
+            "nocturnal": true,
+            "runSpeed": 600,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "handiwork": 2,
+                "medicineProduction": 4,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -2020,6 +3395,15 @@
             "breedingPower": 345,
             "tiebreakIndex": 161,
             "iconPath": "/T_MoonQueen_icon_normal.png",
+            "maleProbability": 20,
+            "nocturnal": true,
+            "runSpeed": 1000,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "handiwork": 4,
+                "medicineProduction": 3,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -2039,7 +3423,17 @@
             "name": "Croajiro",
             "breedingPower": 795,
             "tiebreakIndex": 162,
-            "iconPath": "/T_KendoFrog_icon_normal.png"
+            "iconPath": "/T_KendoFrog_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "watering": 1,
+                "handiwork": 1,
+                "gathering": 1,
+                "transporting": 1
+            }
         },
         "KendoFrog_Dark": {
             "id": "KendoFrog_Dark",
@@ -2049,6 +3443,16 @@
             "breedingPower": 765,
             "tiebreakIndex": 163,
             "iconPath": "/T_KendoFrog_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 300,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "watering": 1,
+                "handiwork": 1,
+                "gathering": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2068,7 +3472,17 @@
             "name": "Lullu",
             "breedingPower": 905,
             "tiebreakIndex": 164,
-            "iconPath": "/T_LeafPrincess_icon_normal.png"
+            "iconPath": "/T_LeafPrincess_icon_normal.png",
+            "maleProbability": 30,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "planting": 2,
+                "handiwork": 2,
+                "gathering": 1,
+                "medicineProduction": 2
+            }
         },
         "MushroomDragon": {
             "id": "MushroomDragon",
@@ -2077,7 +3491,17 @@
             "name": "Shroomer",
             "breedingPower": 720,
             "tiebreakIndex": 165,
-            "iconPath": "/T_MushroomDragon_icon_normal.png"
+            "iconPath": "/T_MushroomDragon_icon_normal.png",
+            "maleProbability": 55,
+            "nocturnal": false,
+            "runSpeed": 740,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "planting": 2,
+                "handiwork": 1,
+                "gathering": 2,
+                "lumbering": 2
+            }
         },
         "MushroomDragon_Dark": {
             "id": "MushroomDragon_Dark",
@@ -2086,7 +3510,17 @@
             "name": "Shroomer Noct",
             "breedingPower": 730,
             "tiebreakIndex": 166,
-            "iconPath": "/T_MushroomDragon_Dark_icon_normal.png"
+            "iconPath": "/T_MushroomDragon_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 740,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "planting": 2,
+                "handiwork": 1,
+                "gathering": 2,
+                "lumbering": 2
+            }
         },
         "SmallArmadillo": {
             "id": "SmallArmadillo",
@@ -2095,7 +3529,14 @@
             "name": "Kikit",
             "breedingPower": 1125,
             "tiebreakIndex": 167,
-            "iconPath": "/T_SmallArmadillo_icon_normal.png"
+            "iconPath": "/T_SmallArmadillo_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "mining": 1
+            }
         },
         "CandleGhost": {
             "id": "CandleGhost",
@@ -2104,7 +3545,18 @@
             "name": "Sootseer",
             "breedingPower": 545,
             "tiebreakIndex": 168,
-            "iconPath": "/T_CandleGhost_icon_normal.png"
+            "iconPath": "/T_CandleGhost_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 800,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "kindling": 3,
+                "handiwork": 2,
+                "gathering": 1,
+                "mining": 2,
+                "farming": 1
+            }
         },
         "ScorpionMan": {
             "id": "ScorpionMan",
@@ -2113,7 +3565,16 @@
             "name": "Prixter",
             "breedingPower": 355,
             "tiebreakIndex": 169,
-            "iconPath": "/T_ScorpionMan_icon_normal.png"
+            "iconPath": "/T_ScorpionMan_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 720,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "gathering": 1,
+                "lumbering": 3,
+                "medicineProduction": 1
+            }
         },
         "WingGolem": {
             "id": "WingGolem",
@@ -2122,7 +3583,16 @@
             "name": "Knocklem",
             "breedingPower": 265,
             "tiebreakIndex": 170,
-            "iconPath": "/T_WingGolem_icon_normal.png"
+            "iconPath": "/T_WingGolem_icon_normal.png",
+            "maleProbability": 70,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "gathering": 3,
+                "mining": 4,
+                "transporting": 4
+            }
         },
         "GuardianDog": {
             "id": "GuardianDog",
@@ -2131,7 +3601,14 @@
             "name": "Yakumo",
             "breedingPower": 945,
             "tiebreakIndex": 171,
-            "iconPath": "/T_GuardianDog_icon_normal.png"
+            "iconPath": "/T_GuardianDog_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 750,
+            "transportSpeed": 165,
+            "workSuitability": {
+                "gathering": 2
+            }
         },
         "SifuDog": {
             "id": "SifuDog",
@@ -2140,7 +3617,18 @@
             "name": "Dogen",
             "breedingPower": 665,
             "tiebreakIndex": 172,
-            "iconPath": "/T_SifuDog_icon_normal.png"
+            "iconPath": "/T_SifuDog_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 187,
+            "workSuitability": {
+                "handiwork": 3,
+                "gathering": 2,
+                "lumbering": 2,
+                "medicineProduction": 1,
+                "transporting": 2
+            }
         },
         "FeatherOstrich": {
             "id": "FeatherOstrich",
@@ -2149,7 +3637,14 @@
             "name": "Dazemu",
             "breedingPower": 675,
             "tiebreakIndex": 173,
-            "iconPath": "/T_FeatherOstrich_icon_normal.png"
+            "iconPath": "/T_FeatherOstrich_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 900,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "gathering": 2
+            }
         },
         "MimicDog": {
             "id": "MimicDog",
@@ -2159,6 +3654,14 @@
             "breedingPower": 1200,
             "tiebreakIndex": 174,
             "iconPath": "/T_MimicDog_icon_normal.png",
+            "maleProbability": 80,
+            "nocturnal": false,
+            "runSpeed": 2000,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "gathering": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2175,6 +3678,14 @@
             "breedingPower": 465,
             "tiebreakIndex": 175,
             "iconPath": "/T_DarkAlien_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 550,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "lumbering": 2,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -2191,6 +3702,13 @@
             "breedingPower": 435,
             "tiebreakIndex": 176,
             "iconPath": "/T_WhiteAlienDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 790,
+            "transportSpeed": 500,
+            "workSuitability": {
+                "mining": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -2207,6 +3725,13 @@
             "breedingPower": 265,
             "tiebreakIndex": 177,
             "iconPath": "/T_DarkMechaDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 550,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "gathering": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2222,7 +3747,15 @@
             "name": "Nitemary",
             "breedingPower": 705,
             "tiebreakIndex": 178,
-            "iconPath": "/T_GhostRabbit_icon_normal.png"
+            "iconPath": "/T_GhostRabbit_icon_normal.png",
+            "maleProbability": 40,
+            "nocturnal": true,
+            "runSpeed": 380,
+            "transportSpeed": 180,
+            "workSuitability": {
+                "handiwork": 3,
+                "transporting": 2
+            }
         },
         "NightBlueHorse": {
             "id": "NightBlueHorse",
@@ -2231,7 +3764,14 @@
             "name": "Starryon",
             "breedingPower": 365,
             "tiebreakIndex": 179,
-            "iconPath": "/T_NightBlueHorse_icon_normal.png"
+            "iconPath": "/T_NightBlueHorse_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 900,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "gathering": 2
+            }
         },
         "WhiteShieldDragon": {
             "id": "WhiteShieldDragon",
@@ -2240,7 +3780,14 @@
             "name": "Silvegis",
             "breedingPower": 215,
             "tiebreakIndex": 180,
-            "iconPath": "/T_WhiteShieldDragon_icon_normal.png"
+            "iconPath": "/T_WhiteShieldDragon_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 700,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "lumbering": 3
+            }
         },
         "BlackPuppy": {
             "id": "BlackPuppy",
@@ -2249,7 +3796,14 @@
             "name": "Smokie",
             "breedingPower": 1245,
             "tiebreakIndex": 181,
-            "iconPath": "/T_BlackPuppy_icon_normal.png"
+            "iconPath": "/T_BlackPuppy_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 550,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "gathering": 2
+            }
         },
         "WhiteDeer": {
             "id": "WhiteDeer",
@@ -2259,6 +3813,14 @@
             "breedingPower": 815,
             "tiebreakIndex": 182,
             "iconPath": "/T_WhiteDeer_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 800,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "gathering": 1,
+                "lumbering": 4
+            },
             "unique": true,
             "parents": [
                 [
@@ -2278,7 +3840,14 @@
             "name": "Omascul",
             "breedingPower": 630,
             "tiebreakIndex": 183,
-            "iconPath": "/T_MysteryMask_icon_normal.png"
+            "iconPath": "/T_MysteryMask_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 400,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "gathering": 1
+            }
         },
         "GrimGirl": {
             "id": "GrimGirl",
@@ -2287,7 +3856,17 @@
             "name": "Splatterina",
             "breedingPower": 725,
             "tiebreakIndex": 184,
-            "iconPath": "/T_GrimGirl_icon_normal.png"
+            "iconPath": "/T_GrimGirl_icon_normal.png",
+            "maleProbability": 38,
+            "nocturnal": true,
+            "runSpeed": 550,
+            "transportSpeed": 180,
+            "workSuitability": {
+                "handiwork": 4,
+                "lumbering": 1,
+                "medicineProduction": 3,
+                "transporting": 2
+            }
         },
         "PurpleSpider": {
             "id": "PurpleSpider",
@@ -2296,7 +3875,17 @@
             "name": "Tarantriss",
             "breedingPower": 825,
             "tiebreakIndex": 185,
-            "iconPath": "/T_PurpleSpider_icon_normal.png"
+            "iconPath": "/T_PurpleSpider_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 640,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "handiwork": 2,
+                "gathering": 2,
+                "medicineProduction": 2,
+                "transporting": 2
+            }
         },
         "BlueThunderHorse": {
             "id": "BlueThunderHorse",
@@ -2305,7 +3894,15 @@
             "name": "Azurmane",
             "breedingPower": 400,
             "tiebreakIndex": 186,
-            "iconPath": "/T_BlueThunderHorse_icon_normal.png"
+            "iconPath": "/T_BlueThunderHorse_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 900,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "generatingElectricity": 4,
+                "gathering": 1
+            }
         },
         "OctopusGirl": {
             "id": "OctopusGirl",
@@ -2314,7 +3911,16 @@
             "name": "Gloopie",
             "breedingPower": 1195,
             "tiebreakIndex": 187,
-            "iconPath": "/T_OctopusGirl_icon_normal.png"
+            "iconPath": "/T_OctopusGirl_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 300,
+            "transportSpeed": 210,
+            "workSuitability": {
+                "watering": 2,
+                "handiwork": 2,
+                "transporting": 2
+            }
         },
         "IceNarwhal": {
             "id": "IceNarwhal",
@@ -2323,7 +3929,15 @@
             "name": "Whalaska",
             "breedingPower": 445,
             "tiebreakIndex": 188,
-            "iconPath": "/T_IceNarwhal_icon_normal.png"
+            "iconPath": "/T_IceNarwhal_icon_normal.png",
+            "maleProbability": 58,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "watering": 3,
+                "cooling": 4
+            }
         },
         "IceNarwhal_Fire": {
             "id": "IceNarwhal_Fire",
@@ -2333,6 +3947,14 @@
             "breedingPower": 430,
             "tiebreakIndex": 189,
             "iconPath": "/T_IceNarwhal_Fire_icon_normal.png",
+            "maleProbability": 42,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "kindling": 3,
+                "cooling": 4
+            },
             "unique": true,
             "parents": [
                 [
@@ -2352,7 +3974,16 @@
             "name": "Jelliette",
             "breedingPower": 1385,
             "tiebreakIndex": 190,
-            "iconPath": "/T_JellyfishFairy_icon_normal.png"
+            "iconPath": "/T_JellyfishFairy_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 240,
+            "transportSpeed": 160,
+            "workSuitability": {
+                "watering": 2,
+                "handiwork": 1,
+                "transporting": 1
+            }
         },
         "Kitsunebi_Ice": {
             "id": "Kitsunebi_Ice",
@@ -2362,6 +3993,13 @@
             "breedingPower": 1305,
             "tiebreakIndex": 191,
             "iconPath": "/T_Kitsunebi_Ice_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 240,
+            "workSuitability": {
+                "cooling": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2382,6 +4020,14 @@
             "breedingPower": 855,
             "tiebreakIndex": 192,
             "iconPath": "/T_BerryGoat_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 400,
+            "transportSpeed": 235,
+            "workSuitability": {
+                "planting": 2,
+                "farming": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2402,6 +4048,16 @@
             "breedingPower": 1205,
             "tiebreakIndex": 193,
             "iconPath": "/T_PinkRabbit_Grass_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 245,
+            "transportSpeed": 172,
+            "workSuitability": {
+                "planting": 1,
+                "handiwork": 1,
+                "gathering": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2422,6 +4078,14 @@
             "breedingPower": 805,
             "tiebreakIndex": 194,
             "iconPath": "/T_Werewolf_Ice_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 375,
+            "workSuitability": {
+                "handiwork": 2,
+                "cooling": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -2442,6 +4106,13 @@
             "breedingPower": 735,
             "tiebreakIndex": 195,
             "iconPath": "/T_AmaterasuWolf_Dark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 700,
+            "transportSpeed": 415,
+            "workSuitability": {
+                "kindling": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -2462,6 +4133,16 @@
             "breedingPower": 1115,
             "tiebreakIndex": 196,
             "iconPath": "/T_RaijinDaughter_Water_icon_normal.png",
+            "maleProbability": 20,
+            "nocturnal": true,
+            "runSpeed": 400,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "generatingElectricity": 1,
+                "handiwork": 1,
+                "medicineProduction": 1,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2482,6 +4163,16 @@
             "breedingPower": 160,
             "tiebreakIndex": 197,
             "iconPath": "/T_WhiteTiger_Ground_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 720,
+            "transportSpeed": 460,
+            "workSuitability": {
+                "handiwork": 1,
+                "lumbering": 2,
+                "mining": 3,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -2502,6 +4193,14 @@
             "breedingPower": 835,
             "tiebreakIndex": 198,
             "iconPath": "/T_FengyunDeeper_Electric_icon_norma.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 750,
+            "transportSpeed": 417,
+            "workSuitability": {
+                "generatingElectricity": 2,
+                "lumbering": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -2522,6 +4221,14 @@
             "breedingPower": 245,
             "tiebreakIndex": 199,
             "iconPath": "/T_Horus_Water_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 1000,
+            "transportSpeed": 500,
+            "workSuitability": {
+                "watering": 4,
+                "transporting": 3
+            },
             "unique": true,
             "parents": [
                 [
@@ -2542,6 +4249,15 @@
             "breedingPower": 170,
             "tiebreakIndex": 200,
             "iconPath": "/T_SnowTigerBeastman_icon_normal.png",
+            "maleProbability": 60,
+            "nocturnal": false,
+            "runSpeed": 750,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "lumbering": 3,
+                "mining": 3,
+                "cooling": 4
+            },
             "unique": true,
             "parents": [
                 [
@@ -2561,7 +4277,15 @@
             "name": "Ghangler",
             "breedingPower": 525,
             "tiebreakIndex": 201,
-            "iconPath": "/T_GhostAnglerfish_icon_normal.png"
+            "iconPath": "/T_GhostAnglerfish_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 400,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "watering": 4,
+                "transporting": 2
+            }
         },
         "GhostAnglerfish_Fire": {
             "id": "GhostAnglerfish_Fire",
@@ -2571,6 +4295,15 @@
             "breedingPower": 505,
             "tiebreakIndex": 202,
             "iconPath": "/T_GhostAnglerfish_Fire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "kindling": 3,
+                "watering": 4,
+                "transporting": 2
+            },
             "unique": true,
             "parents": [
                 [
@@ -2590,7 +4323,17 @@
             "name": "Icelyn",
             "breedingPower": 605,
             "tiebreakIndex": 203,
-            "iconPath": "/T_IceWitch_icon_normal.png"
+            "iconPath": "/T_IceWitch_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 400,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "handiwork": 2,
+                "medicineProduction": 2,
+                "cooling": 3,
+                "transporting": 1
+            }
         },
         "LeafMomonga": {
             "id": "LeafMomonga",
@@ -2599,7 +4342,16 @@
             "name": "Herbil",
             "breedingPower": 1445,
             "tiebreakIndex": 204,
-            "iconPath": "/T_LeafMomonga_icon_normal.png"
+            "iconPath": "/T_LeafMomonga_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 350,
+            "transportSpeed": 350,
+            "workSuitability": {
+                "planting": 2,
+                "gathering": 1,
+                "transporting": 1
+            }
         },
         "IceCrocodile": {
             "id": "IceCrocodile",
@@ -2608,7 +4360,16 @@
             "name": "Munchill",
             "breedingPower": 1335,
             "tiebreakIndex": 205,
-            "iconPath": "/T_IceCrocodile_icon_normal.png"
+            "iconPath": "/T_IceCrocodile_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 40,
+            "workSuitability": {
+                "watering": 1,
+                "cooling": 2,
+                "transporting": 1
+            }
         },
         "StuffedShark": {
             "id": "StuffedShark",
@@ -2617,7 +4378,15 @@
             "name": "Finsider",
             "breedingPower": 1295,
             "tiebreakIndex": 206,
-            "iconPath": "/T_StuffedShark_icon_normal.png"
+            "iconPath": "/T_StuffedShark_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 250,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "watering": 2,
+                "transporting": 1
+            }
         },
         "StuffedShark_Fire": {
             "id": "StuffedShark_Fire",
@@ -2627,6 +4396,15 @@
             "breedingPower": 1255,
             "tiebreakIndex": 207,
             "iconPath": "/T_StuffedShark_Fire_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 250,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "kindling": 2,
+                "watering": 2,
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2646,7 +4424,15 @@
             "name": "Polapup",
             "breedingPower": 745,
             "tiebreakIndex": 208,
-            "iconPath": "/T_IceSeal_icon_normal.png"
+            "iconPath": "/T_IceSeal_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 250,
+            "transportSpeed": 250,
+            "workSuitability": {
+                "watering": 2,
+                "cooling": 3
+            }
         },
         "Plesiosaur": {
             "id": "Plesiosaur",
@@ -2655,7 +4441,16 @@
             "name": "Braloha",
             "breedingPower": 335,
             "tiebreakIndex": 209,
-            "iconPath": "/T_Plesiosaur_icon_normal.png"
+            "iconPath": "/T_Plesiosaur_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "planting": 4,
+                "gathering": 4,
+                "mining": 2
+            }
         },
         "TropicalOstrich": {
             "id": "TropicalOstrich",
@@ -2664,7 +4459,16 @@
             "name": "Palumba",
             "breedingPower": 455,
             "tiebreakIndex": 210,
-            "iconPath": "/T_TropicalOstrich_icon_normal.png"
+            "iconPath": "/T_TropicalOstrich_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 550,
+            "transportSpeed": 400,
+            "workSuitability": {
+                "planting": 2,
+                "gathering": 2,
+                "mining": 3
+            }
         },
         "SnowPeafowl": {
             "id": "SnowPeafowl",
@@ -2673,7 +4477,15 @@
             "name": "Frostplume",
             "breedingPower": 655,
             "tiebreakIndex": 211,
-            "iconPath": "/T_SnowPeafowl_icon_normal.png"
+            "iconPath": "/T_SnowPeafowl_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 500,
+            "transportSpeed": -1,
+            "workSuitability": {
+                "gathering": 1,
+                "cooling": 2
+            }
         },
         "JellyfishGhost": {
             "id": "JellyfishGhost",
@@ -2682,7 +4494,17 @@
             "name": "Jellroy",
             "breedingPower": 1395,
             "tiebreakIndex": 212,
-            "iconPath": "/T_JellyfishGhost_icon_normal.png"
+            "iconPath": "/T_JellyfishGhost_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 400,
+            "transportSpeed": 300,
+            "workSuitability": {
+                "watering": 2,
+                "handiwork": 1,
+                "medicineProduction": 1,
+                "transporting": 1
+            }
         },
         "PoseidonOrca": {
             "id": "PoseidonOrca",
@@ -2692,6 +4514,13 @@
             "breedingPower": 90,
             "tiebreakIndex": 213,
             "iconPath": "/T_PoseidonOrca_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 750,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "watering": 4
+            },
             "unique": true,
             "parents": [
                 [
@@ -2708,6 +4537,13 @@
             "breedingPower": 1430,
             "tiebreakIndex": 214,
             "iconPath": "/Yakushima/T_YakushimaMonster001_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2724,6 +4560,13 @@
             "breedingPower": 1490,
             "tiebreakIndex": 215,
             "iconPath": "/Yakushima/T_YakushimaMonster001_Blue_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2744,6 +4587,13 @@
             "breedingPower": 1405,
             "tiebreakIndex": 216,
             "iconPath": "/Yakushima/T_YakushimaMonster001_Red_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2764,6 +4614,13 @@
             "breedingPower": 1390,
             "tiebreakIndex": 217,
             "iconPath": "/Yakushima/T_YakushimaMonster001_Purple_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 300,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2796,6 +4653,13 @@
             "breedingPower": 1500,
             "tiebreakIndex": 218,
             "iconPath": "/Yakushima/T_YakushimaMonster001_Pink_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2828,6 +4692,13 @@
             "breedingPower": 1320,
             "tiebreakIndex": 219,
             "iconPath": "/Yakushima/T_YakushimaMonster001_Rainbow_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 200,
+            "workSuitability": {
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2908,6 +4779,13 @@
             "breedingPower": 1380,
             "tiebreakIndex": 220,
             "iconPath": "/Yakushima/T_YakushimaMonster002_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 600,
+            "transportSpeed": 450,
+            "workSuitability": {
+                "lumbering": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2952,6 +4830,13 @@
             "breedingPower": 1340,
             "tiebreakIndex": 221,
             "iconPath": "/Yakushima/T_YakushimaMonster003_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "gathering": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2968,6 +4853,13 @@
             "breedingPower": 1250,
             "tiebreakIndex": 222,
             "iconPath": "/Yakushima/T_YakushimaMonster003_Purple_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": false,
+            "runSpeed": 300,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "gathering": 1
+            },
             "unique": true,
             "parents": [
                 [
@@ -2996,6 +4888,13 @@
             "breedingPower": 1380,
             "tiebreakIndex": 223,
             "iconPath": "/Yakushima/T_YakushimaBoss001_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 900,
+            "transportSpeed": 600,
+            "workSuitability": {
+                "transporting": 4
+            },
             "unique": true,
             "parents": [
                 [
@@ -3052,6 +4951,13 @@
             "breedingPower": 1390,
             "tiebreakIndex": 224,
             "iconPath": "/Yakushima/T_YakushimaBoss001_Small_icon_normal.png",
+            "maleProbability": 50,
+            "nocturnal": true,
+            "runSpeed": 300,
+            "transportSpeed": 275,
+            "workSuitability": {
+                "transporting": 1
+            },
             "unique": true,
             "parents": [
                 [
